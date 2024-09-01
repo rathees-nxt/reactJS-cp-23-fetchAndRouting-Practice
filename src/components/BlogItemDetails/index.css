@@ -1,0 +1,50 @@
+/* Write your CSS code here */
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+.blog-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+.heading {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: roboto;
+}
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin: 10px;
+}
+.author-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.author-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.para {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: roboto;
+}
+.video-img {
+  width: 100%;
+  border-radius: 12px;
+}
+.para1 {
+  color: #8e8e8e;
+  font-size: 14px;
+  font-family: roboto;
+}
